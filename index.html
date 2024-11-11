@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldeias Históricas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="imagens/logo.png" alt="Logotipo Aldeias Históricas" id="logo">
+        <h1>Aldeias Históricas de Portugal</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="almeida.html">Almeida</a></li>
+            <li><a href="castelo_rodrigo.html">Castelo Rodrigo</a></li>
+            <li><a href="linhares_da_beira.html">Linhares da Beira</a></li>
+            <li><a href="marialva.html">Marialva</a></li>
+            <li><a href="monsanto.html">Monsanto</a></li>
+            <li><a href="registro.html">Registro</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slideshow items for each village -->
+                <div class="carousel-item active">
+                    <a href="almeida.html"><img src="imagens/almeida/almeida1.jpg" class="d-block w-100 h-100" alt="Almeida"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="castelo_rodrigo.html"><img src="imagens/castelo rodrigo/castelo_rodrigo1.jpg" class="d-block w-100 h-100" alt="Castelo Rodrigo"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="linhares_da_beira.html"><img src="imagens/linhares da beira/linhares1.jpg" class="d-block w-100 h-100" alt="Linhares da Beira"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="marialva.html"><img src="imagens/marialva/marialva1.jpg" class="d-block w-100 h-100" alt="Marialva"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="monsanto.html"><img src="imagens/monsanto/monsanto1.jpg" class="d-block w-100 h-100" alt="Monsanto"></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <section>
+            <h2>Bem-vindo às Aldeias Históricas de Portugal</h2>
+            <p>Explore cada uma dessas aldeias para descobrir histórias fascinantes, paisagens deslumbrantes e patrimônios únicos.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kP2OtQrVm1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Autor do Projeto: [Seu Nome]</p>
+    </footer>
+</body>
+</html>
